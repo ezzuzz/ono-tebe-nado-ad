@@ -73,3 +73,24 @@
  
 /* ---------- Обложка ---------- */
  
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 155px 50px 50px;
+  background: url(../images/cover.jpg) center / cover no-repeat;
+  color: #fff;
+}
+ 
+.cover__title {
+  position: relative;
+  z-index: 2;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 135px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+ 
