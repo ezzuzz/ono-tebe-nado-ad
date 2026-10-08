@@ -94,3 +94,49 @@
   text-transform: uppercase;
 }
  
+.aligned-text {
+  display: block;
+}
+ 
+.aligned-text_left {
+  text-align: left;
+}
+ 
+.aligned-text_center {
+  text-align: center;
+}
+ 
+.aligned-text_right {
+  text-align: right;
+}
+ 
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+ 
+.cover__description {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.cover__description-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+ 
+.bet-button {
+  padding: 12px 32px 11px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+ 
