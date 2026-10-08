@@ -279,7 +279,25 @@
   background-color: #000;
 }
  
-
+.about__logo-image {
+  width: 148px;
+}
+ 
+.about__title {
+  margin: 101px 0 100px;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+ 
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 24px;
+}
+ 
 /* ---------- Подвал ---------- */
  
 .footer {
